@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 import streamlit as st
 from PIL import Image
 
-logo = Image.open(r"D:\Machine Learning Projects\Medical Insurance Premium Predictor\STW-LOGO.png")
+logo = Image.open(r"STW-LOGO.png")
 # st.image(logo)
 col1, col2, col3 = st.columns(3)
 with col1:
